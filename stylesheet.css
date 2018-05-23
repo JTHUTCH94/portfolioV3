@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-position: center;
+    background-image: url(https://s7.postimg.cc/ovvzydwhn/portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .portfolio{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #title{
+    font-family: 'VT323', monospace;
+    display: inline-block;
+    margin: auto;
+    font-size: 50px;
+    border: 5px solid black;
+    padding: 15px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+  }
+
+  #profile{
+      display: block;
+      width: 35%;
+      border: 5px solid black;
+      padding: 15px;
+      background: white;
+      border-radius: 25px;
+      margin-top: 10px;
+      font-family: 'VT323', monospace;
+      font-size: 20px;
+      box-shadow: 5px 10px;
+  }
+
+  #about-me{
+    display: block;
+    width: 25%;
+    border: 5px solid black;
+    padding: 15px;
+    background: white;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    float: right;
+    margin-top: -150px;
+    margin-right: 50px;
+    box-shadow: 5px 10px;
+  }
+
+  .info{
+      text-align: center;
+  }
+
+  #profile-pic{
+      display: inline-block;
+      border-radius: 100px;
+      border: 2px solid black;
+      width: 15%;
+      height: 180px;
+      margin-left: 10px;
+      margin-top: 10px;
+      box-shadow: 5px 10px;
+  }
+
+  #contact{
+    display: block;
+    width: 20%;
+    padding: 15px;
+    border-radius: 25px;
+    height: 160px;
+    float: right;
+    padding: 15px;
+    background: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 20px;  
+    border: 5px solid black;
+    box-shadow: 5px 10px;
+  }
+
+  .projects{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 5px solid black;
+    padding: 15px;
+    background: white;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 10px;
+  }
+
+  .project{
+    display: block;
+    width: 90%;
+    border: 5px solid black;
+    padding: 15px;
+    background: white;
+    border-radius: 25px; 
+    margin: auto;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+  }
+
+
+  .focus-in{
+    -webkit-animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+	        animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+  }
+  @-webkit-keyframes focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
